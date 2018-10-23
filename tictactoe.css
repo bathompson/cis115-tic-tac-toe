@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  font-size: 60pt;
+  text-align: center;
+}
+
+td:nth-child(1) {
+  border-left: none;
+}
+
+td:nth-child(3) {
+  border-right: none;
+}
+
+tr:nth-child(1) > td {
+  border-top: none;
+}
+
+tr:nth-child(3) > td {
+  border-bottom: none;
+}
