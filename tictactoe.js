@@ -37,9 +37,9 @@ $(function(){
       }
 
       // Check diagonals
-      if($(cells[0]).text() === turn && $(cells[4]).text() === turn && $(cells[8]).text())
+      if($(cells[0]).text() === turn && $(cells[4]).text() === turn && $(cells[8]).text() === turn)
         win = true;
-      if($(cells[2]).text() === turn && $(cells[4]).text() === turn && $(cells[6]).text())
+      if($(cells[2]).text() === turn && $(cells[4]).text() === turn && $(cells[6]).text() === turn)
         win = true;
 
       // Print win or next turn
